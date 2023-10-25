@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+	<form action="https://lm.ciclo.iesnervion.es/" method="post">
+		<fieldset>
+		    <label for="nombre">Nombre y apellidos: </label>
+		    <input name="nombre" id="nombre" type="text" required placeholder="Ingrese su nombre aquí"><br>
+		    <label for="correo">Correo: </label>
+		    <input id="correo" name="correo" type="email"><br>
+		    <label for="momento[]">Momento:</label><br>
+		    <input name="momento[]" id="momento1" type="checkbox" value="desayuno">desayuno<br>
+		    <input name="momento[]" id="momento2" type="checkbox" value="almuerzo">almuerzo<br>
+		    <input name="momento[]" id="momento3" type="checkbox" value="merienda">merienda<br>
+		    <input name="momento[]" id="momento4" type="checkbox" value="cena">cena<br>
+		    <input name="momento[]" id="momento5" type="checkbox" value="postre">postre<br>
+		    <label for="ingredientes">Ingredientes:</label><br>
+			<select multiple name="ingredientes[]" id="ingredientes">
+			    <optgroup label="Frutas">
+			        <option value="manzana">Manzana</option>
+			        <option value="naranja">Naranja</option>
+			        <option value="platano">Plátano</option>
+			    </optgroup>
+			    <optgroup label="Verduras">
+			        <option value="zanahoria">Zanahoria</option>
+			        <option value="brocoli">Brócoli</option>
+			        <option value="espinaca">Espinaca</option>
+			    </optgroup>
+			    <optgroup label="Carne">
+			        <option value="Cerdo">Cerdo</option>
+			        <option value="Pollo">Pollo</option>
+			        <option value="Ternera">Ternera</option>
+			    </optgroup>
+			    <optgroup label="Pescado">
+			        <option value="Merluza">Merluza</option>
+			        <option value="Salmón">Salmón</option>
+			        <option value="Dorada">Dorada</option>
+			    </optgroup>
+			</select>
+			<br>
+			<label for="horas">Horas:</label><br>
+			<input type="radio" name="horas" value="0">
+			<label for="radio">0</label><br>
+			<input type="radio" name="horas" value="1">
+			<label for="radio">1</label><br>
+			<input type="radio" name="horas" value="2">
+			<label for="radio">2</label><br>
+			<br>
+			<label for="minutos">Cuartos de horas:</label><br>
+			<input type="radio" name="minutos" value="00">
+			<label for="minutos">:00</label><br>
+			<input type="radio" name="minutos" value="15">
+			<label for="minutos">:15</label><br>
+			<input type="radio" name="minutos" value="30">
+			<label for="minutos">:30</label><br>
+			<input type="radio" name="minutos" value="45">
+			<label for="minutos">:45</label><br>
+			<label for="foto">Foto de la receta:</label>
+			<input type="file" name="foto" id="foto" accept="image/png, image/jpeg">
+			<br>
+		</fieldset>
+		<input type="submit" name="enviar" value="Enviar">
+    </form>
+
+</body>
+</html>
