@@ -1,0 +1,15 @@
+body{
+	margin: 12px;
+	background-color: lightpink;
+	color: darkolivegreen;
+}
+
+table{
+	border: 1px;
+	background-color: darkblue;
+	border-radius: 4px;
+}
+
+a{
+	text-decoration: none;
+}
