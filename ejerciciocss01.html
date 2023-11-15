@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		#parrafo1{
+			text-align: right;
+			font-style: italic;
+		}
+		#parrafo2{
+			text-decoration: line-through;
+			text-transform: uppercase;
+		}
+		#parrafo3{
+			font-family: sans-serif;
+			font-size: 1.2;
+		}
+		#parrafo4{
+			font-weight: bold;
+			text-shadow: 2px 2px 2px green;
+		}
+		div{
+			width: 400px;
+			height: 200px;
+			border-radius: 20px;
+			padding: 1em;
+			display: inline-table;
+		}
+		a{
+			width: 100px;
+			height: 50px;
+			color: white;
+		}
+		div p{
+			font-weight: bold;
+		}
+		#div1 a {
+			display: inline-block;
+		}
+		#div1{
+			background-color: lightgreen;
+		}
+		#div2{
+			background-color: lightblue;
+		}
+		#div3{
+			background-color: lightpink;
+		}
+		#div2 a{
+			display: block;
+		}
+		#div3 a{
+			display: inline;
+		}
+		#div3 a:hover{
+			font-weight: bold;
+			color: yellow;
+		}
+		.rojo{
+			background-color: red;
+		}
+		.verde{
+			background-color: green;
+		}
+		.azul{
+			background-color: blue;
+		}
+		#div3 a{
+			margin: 2px;
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+	<h1>CSS: Ejercicio 1</h1>
+	<p id="parrafo1">Este es el párrafo número 1 en cursiva y alineado a la derecha</p>
+	<p id="parrafo2">este también es un párrafo en minúsculas pero convertido en mayúsculas y tachado</p>
+	<p id="parrafo3">Como no hay dos sin tres, este será el tercero con un tipo de letra diferente y un 20% más grande</p>
+	<p id="parrafo4">Y por último, un texto en negrita y con sombrita en verde</p>
+	<hr>
+	<div id="div1">
+		<p>Buscadores</p>
+		<a href="" class="rojo">DuckDuckGo</a>
+		<a href="" class="verde">Ecosia</a>
+		<a href="" class="azul">Google</a>
+	</div>
+	<div id="div2">
+		<p>Redes Sociales</p>
+		<a href="" class="rojo">Facebook</a>
+		<a href="" class="verde">Twitter</a>
+		<a href="" class="azul">Pinterest</a>
+	</div>
+	<div id="div3">
+		<p>Noticias</p>
+		<a href="">El País</a>
+		<a href="">El Diario</a>
+		<a href="">El Mundo</a>
+	</div>
+</body>
+</html>
