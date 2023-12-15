@@ -1,0 +1,27 @@
+*{
+	font-family: sans-serif;
+}
+
+h1{
+	color: darkgreen;
+	border-bottom: solid green 2px;
+}
+
+img {
+	float: left;
+	margin: 1em;
+	width: 15%;
+	vertical-align: text-top;
+}
+
+video{
+	display: block;
+	margin-left: 20%;
+	margin-bottom: 1em;
+	width: 60%;
+}
+
+a{
+	display: flow;
+	text-align: center;
+}
